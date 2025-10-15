@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tamas Kiss – Junior Software Tester</title>
+  <meta name="description" content="Rövid bemutatkozó oldal: manuális tesztelés, QA, Python alapok.">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <meta property="og:title" content="Tamas Kiss – Junior Software Tester">
+  <meta property="og:description" content="Manuális tesztelés, QA, Python alapok.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/og-image.svg">
+  <meta name="robots" content="index,follow">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <h1 class="brand"><a href="/">Tamas Kiss</a></h1>
+      <nav class="nav">
+        <a href="#rolam">Rólam</a>
+        <a href="#projektek">Projektek</a>
+        <a href="#kapcsolat">Kapcsolat</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <h2>Junior Software Tester</h2>
+        <p>Manuális tesztelés. Hibajegyek. Tiszta visszajelzés. Lépésről lépésre jobb szoftver.</p>
+        <div class="cta">
+          <a class="btn" href="#kapcsolat">Kapcsolat</a>
+          <a class="btn ghost" href="#projektek">Projektek</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="rolam" class="section">
+      <div class="wrap">
+        <h3>Rólam</h3>
+        <p>Richterswil (CH). Pályakezdő a tesztelésben, több mint 15 év tapasztalattal szolgáltatásban és csapatvezetésben. Fókusz: manuális tesztelés, jegykezelés (Jira/Zephyr), alap Python, SQL, agilis módszerek.</p>
+        <ul class="tags">
+          <li>Manuális tesztelés</li>
+          <li>Jira · Zephyr</li>
+          <li>Python alapok</li>
+          <li>SQL alapok</li>
+          <li>Scrum · Kanban</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projektek" class="section">
+      <div class="wrap">
+        <h3>Projektek</h3>
+        <div class="cards">
+          <article class="card">
+            <h4>Bug report sablon</h4>
+            <p>Letölthető, tölthető sablon tiszta reprodukciós lépésekkel. Egyszerűen használható kezdőknek is.</p>
+            <a class="card-link" href="#" aria-label="Bug report sablon">Megnyitás</a>
+          </article>
+          <article class="card">
+            <h4>Test Case minta</h4>
+            <p>Rövid, érthető struktúra manuális tesztekhez. Pre-kész mezők, mérhető kimenettel.</p>
+            <a class="card-link" href="#" aria-label="Test Case minta">Megnyitás</a>
+          </article>
+          <article class="card">
+            <h4>Python mini-feladatok</h4>
+            <p>Alap gyakorló feladatok kezdőknek, megoldással és magyarázattal.</p>
+            <a class="card-link" href="#" aria-label="Python mini-feladatok">Megnyitás</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="kapcsolat" class="section">
+      <div class="wrap">
+        <h3>Kapcsolat</h3>
+        <ul class="contact">
+          <li>Email: <a href="mailto:tamas@example.com">tamas@example.com</a></li>
+          <li>GitHub: <a href="https://github.com/tamas-works" target="_blank" rel="noopener">github.com/tamas-works</a></li>
+          <li>LinkedIn: <a href="https://www.linkedin.com/in/tamas-kiss-ch/" target="_blank" rel="noopener">linkedin.com/in/tamas-kiss-ch</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>© <span id="year"></span> Tamas Kiss. Minden jog fenntartva.</p>
+    </div>
+  </footer>
+
+  <script>
+    // évszám frissítése
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
